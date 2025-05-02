@@ -14,6 +14,14 @@ let transcripts = JSON.parse(fs.readFileSync('in.json', 'utf8'));
 const modelId = "gemini-pro";
 const model = configuration.getGenerativeModel({ model: modelId });
 
+let transcripts = JSON.parse(fs.readFileSync('in.json', 'utf8'));
+const modelId = "gemini-pro";
+const model = configuration.getGenerativeModel({ model: modelId });let transcripts = JSON.parse(fs.readFileSync('in.json', 'utf8'));
+const modelId = "gemini-pro";
+const model = configuration.getGenerativeModel({ model: modelId });let transcripts = JSON.parse(fs.readFileSync('in.json', 'utf8'));
+const modelId = "gemini-pro";
+const model = configuration.getGenerativeModel({ model: modelId });
+
 async function processTranscripts(transcripts) {
   const batchSize = 5;
 
